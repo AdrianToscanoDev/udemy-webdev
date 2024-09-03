@@ -17,7 +17,6 @@ body {
 img {
   height: 200px;
   width: 200px;
-  object-fit: cover;
 }
 
 h1 {
@@ -33,16 +32,21 @@ footer {
 @media (min-width: 900px) {
   body{
     background-color: lightblue;
-    display: row;
   }
 
-  .left-card .tile-image {
-    background-color: blue !important;
+  .left.card, .right.card {
+    flex: 1;
+  }
+
+
+  .left.card .tile-image {
+    border: 20px solid black;
     float: left;
   }
 
-  .right-card .tile-image {
-    background-color: purple !important;
+  .right.card .tile-image {
+    border: 20px solid blue;
     float: right;
   }
+
 }
