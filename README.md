@@ -1,2 +1,2 @@
 # udemy-webdev
-udemy.com tutorial for web development. 
+udemy.com tutorial for web development
