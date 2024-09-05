@@ -20,7 +20,17 @@ img {
 }
 
 h1 {
+  background-color: blue;
+  width: 100%;
   font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-size: 2.5rem;
 }
 
 footer {
@@ -34,10 +44,19 @@ footer {
     background-color: lightblue;
   }
 
-  .left.card, .right.card {
+  .main {
+    flex-direction: row;
+  }
+
+  .left.card {
+    background-color: lightcoral;
     flex: 1;
   }
 
+  .right.card {
+    background-color: lightgreen;
+    flex: 1;
+  }
 
   .left.card .tile-image {
     border: 20px solid black;
@@ -48,5 +67,4 @@ footer {
     border: 20px solid blue;
     float: right;
   }
-
 }
