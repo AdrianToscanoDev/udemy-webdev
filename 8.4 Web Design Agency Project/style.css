@@ -29,21 +29,19 @@ footer {
   body {
     background-color: lightblue;
   }
-
+  
   .cards-container {
     display: flex;
     flex-direction: row;
   }
 
   .left.card {
-    background-color: lightcoral;
     display: flex;
     padding: 5px;
     flex: 1;
   }
 
   .right.card {
-    background-color: lightgreen;
     display: flex;
     padding: 5px;
     flex: 1;
@@ -53,11 +51,7 @@ footer {
     display: block;
   }
 
-  .left.card .tile-image {
-    border: 20px solid black;
-  }
-
-  .right.card .tile-image {
-    border: 20px solid blue;
+  .left.card .tile-image, .right.card .tile-image {
+    margin-right: 10px;
   }
 }
